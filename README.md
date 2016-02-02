@@ -1,5 +1,6 @@
 # Meizu-M2-ROOT-tips
 If you have a Meizu M2 and you are unable to get root access or connect it through ADB, this guide is for you. The instructions that you will find here helped me to get both.
+**Please, while this procedure is safe to use, I'm not responsible of any possible damage to your phone. I'm only recollecting useful information from forums and my personal experience.**
 
 ## Root problems
 This is for users who already have a Meizu account and supposed root priviliges that are not working. I found myself with a phone telling me that it was rooted (settings/accounts/<your flyme account>/permisssions: open), but at the same time, unable to launch applications as root. SuperSU doesn't prompt you for super user permissions, so I was unable to delete any of the preinstalled applications. I tried everything, installing new firmware, cleaning cache and data, anything. Finally, after reading a lot of forums and paying attention to what was written in them I found the answer: [http://forum.xda-developers.com/galaxy-s6/general/root-pingpongroot-s6-root-tool-t3103016/page7](http://forum.xda-developers.com/galaxy-s6/general/root-pingpongroot-s6-root-tool-t3103016/page7)
