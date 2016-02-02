@@ -21,7 +21,7 @@ Only for Ubuntu users (probably for all Debian distros). This is another thing h
   ```
   sudo echo "SUBSYSTEM==\"usb\", SYSFS{idVendor}==\"2a45\", SYSFS{idProduct}==\"0c02\", MODE=\"0666\"" > /etc/udev/rules.d/51-android.rules
   ```
-  You may ask how did I get the idVendor and the idProduct, well it is as easy as typing (you may check that the phone is connected as data transfer mode):
+  You may be asking you how did I get the idVendor and the idProduct; well it is as easy as typing (you may check that the phone is connected as data transfer mode):
   ```
   lsub
   ```
