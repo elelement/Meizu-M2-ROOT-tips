@@ -7,6 +7,8 @@ This is for users who already have a Meizu account and supposed root priviliges 
 
 Basically, you need to install the KingsUser app, which is some kind of SuperSU but with prompting working. You can download it from this repository.
 
+**Update**: you may need to change your device name in order to make it work.
+
 
 ## ADB
 Only for Ubuntu users (probably for all Debian distros). This is another thing hard to configure or at least it was for me. In order to get ADB working do the following:
