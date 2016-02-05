@@ -70,6 +70,9 @@ Only for Ubuntu users (probably for all Debian distros). This is another thing h
   List of devices attached 
   88UFBMK26DBZ	device
   ```
+  
+  **Pay attention** to the authorization message that your phone will prompt you.
+  
 7. Launch a shell
   ```
   adb shell
