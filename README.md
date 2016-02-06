@@ -113,7 +113,7 @@ I will guide you step by step during the process.
     ```
 5. Now you have to wait. Before using fastboot command you'll see on your phone a black screen with a small white text at the bottom of the screen. After using fastboot you will be asked to continue by pushing "Volume up" key. Wait then till it says is done working.
 6. When is over (the text on he screen will warn you), shutdown the phone by pressing power button for a few seconds.
-7. Power on the phone and wait until phone boots into Flyme OS [^boot error](If somehow your phone enters in an endless boot and reboot loop, withouth booting into Flyme OS, there's a trick: reboot on recovery mode (Volumen up + power off, push Start (even if you don't have anything to flash) and restart.)
+7. Power on the phone and wait until phone boots into Flyme OS<sup>(\*)</sup>.
 8. Once restarted type, copy twrp_2.8.7.0.img into your /sdcard directory:
 	```
     adb reboot bootloader
@@ -122,6 +122,8 @@ I will guide you step by step during the process.
 9. You will see again a black screen with white text. Wait until it finishes.
 10. Power off the phone.
 11. Volume Up + Power to enter your new TWRP recovery mode.
+
+> \* If somehow your phone enters in an endless boot and reboot loop, withouth booting into Flyme OS, there's a trick: reboot on recovery mode (Volumen up + power off, push Start (even if you don't have anything to flash) and restart.
 
 ### SuperSU
 
